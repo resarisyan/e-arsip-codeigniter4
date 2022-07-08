@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #000000;
+}
+
+.navbar {
+    height: 100px;
+    width: 100px;
+}
+
+li {
+    font-size: 20px;
+}

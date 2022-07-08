@@ -1,0 +1,703 @@
+CRITICAL - 2022-07-04 00:23:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Models\Admin\UserModel.php on line 76.
+ 1 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal(null)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 00:35:01 --> Call to undefined method App\Models\Admin\UserModel::count
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Admin\UserModel.php(73): CodeIgniter\Model->__call('count', [])
+ 2 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal(null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 00:39:01 --> Undefined array key "draw"
+in APPPATH\Controllers\Admin\User.php on line 33.
+ 1 APPPATH\Controllers\Admin\User.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "draw"', 'APPPATH\\Controllers\\Admin\\User.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 00:39:19 --> Undefined array key "draw"
+in APPPATH\Controllers\Admin\User.php on line 33.
+ 1 APPPATH\Controllers\Admin\User.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "draw"', 'APPPATH\\Controllers\\Admin\\User.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 00:39:32 --> Undefined array key "draw"
+in APPPATH\Controllers\Admin\User.php on line 33.
+ 1 APPPATH\Controllers\Admin\User.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "draw"', 'APPPATH\\Controllers\\Admin\\User.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 02:16:54 --> Undefined variable $departemen
+in APPPATH\Views\form_admin\form_arsip.php on line 6.
+ 1 APPPATH\Views\form_admin\form_arsip.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departemen', 'APPPATH\\Views\\form_admin\\form_arsip.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form_admin\\form_arsip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('form_admin/form_arsip', null, true)
+ 5 APPPATH\Views\admin\arsip.php(47): CodeIgniter\View\View->include('form_admin/form_arsip')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\arsip.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/arsip', [], true)
+ 9 APPPATH\Controllers\Admin\Arsip.php(27): view('admin/arsip', [...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Arsip->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Arsip))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-04 02:17:07 --> Column 'id_departemen' in where clause is ambiguous
+CRITICAL - 2022-07-04 02:17:07 --> Column 'id_departemen' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `arsip`.`id`, `arsip`.`no_arsip`, `arsip`.`nama_arsip`, `arsip`.`file_arsip`, `arsip`.`ukuran_file`, `arsip`.`deskripsi`, `arsip`.`status`, `arsip`.`created_at`, `arsip`.`updated_at`, `departemen`.`nama_departemen`, `kategori`.`nama_kategori`, `user`.`nama_user`
+FROM `arsip`
+INNER JOIN `departemen` ON `departemen`.`id` = `arsip`.`id_departemen`
+INNER JOIN `kategori` ON `kategori`.`id` = `arsip`.`id_kategori`
+INNER JOIN `user` ON `user`.`id` = `arsip`.`id_user`
+WHERE `id_departemen` IS NULL
+ORDER BY `id` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `arsip`.`id`, `arsip`.`no_arsip`, `arsip`.`nama_arsip`, `arsip`.`file_arsip`, `arsip`.`ukuran_file`, `arsip`.`deskripsi`, `arsip`.`status`, `arsip`.`created_at`, `arsip`.`updated_at`, `departemen`.`nama_departemen`, `kategori`.`nama_kategori`, `user`.`nama_user`
+FROM `arsip`
+INNER JOIN `departemen` ON `departemen`.`id` = `arsip`.`id_departemen`
+INNER JOIN `kategori` ON `kategori`.`id` = `arsip`.`id_kategori`
+INNER JOIN `user` ON `user`.`id` = `arsip`.`id_user`
+WHERE `id_departemen` IS NULL
+ORDER BY `id` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `arsip`.`id`, `arsip`.`no_arsip`, `arsip`.`nama_arsip`, `arsip`.`file_arsip`, `arsip`.`ukuran_file`, `arsip`.`deskripsi`, `arsip`.`status`, `arsip`.`created_at`, `arsip`.`updated_at`, `departemen`.`nama_departemen`, `kategori`.`nama_kategori`, `user`.`nama_user`
+FROM `arsip`
+INNER JOIN `departemen` ON `departemen`.`id` = `arsip`.`id_departemen`
+INNER JOIN `kategori` ON `kategori`.`id` = `arsip`.`id_kategori`
+INNER JOIN `user` ON `user`.`id` = `arsip`.`id_user`
+WHERE `id_departemen` IS NULL
+ORDER BY `id` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `arsip`.`id`, `arsip`.`no_arsip`, `arsip`.`nama_arsip`, `arsip`.`file_arsip`, `arsip`.`ukuran_file`, `arsip`.`deskripsi`, `arsip`.`status`, `arsip`.`created_at`, `arsip`.`updated_at`, `departemen`.`nama_departemen`, `kategori`.`nama_kategori`, `user`.`nama_user`
+FROM `arsip`
+INNER JOIN `departemen` ON `departemen`.`id` = `arsip`.`id_departemen`
+INNER JOIN `kategori` ON `kategori`.`id` = `arsip`.`id_kategori`
+INNER JOIN `user` ON `user`.`id` = `arsip`.`id_user`
+WHERE `id_departemen` IS NULL
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+ 7 APPPATH\Models\Admin\ArsipModel.php(86): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Controllers\Admin\Arsip.php(60): App\Models\Admin\ArsipModel->ajaxGetData('10', '0')
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Arsip->ajaxList()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Arsip))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-04 02:17:26 --> Column 'id_departemen' in where clause is ambiguous
+CRITICAL - 2022-07-04 02:17:26 --> Column 'id_departemen' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `arsip`.`id`, `arsip`.`no_arsip`, `arsip`.`nama_arsip`, `arsip`.`file_arsip`, `arsip`.`ukuran_file`, `arsip`.`deskripsi`, `arsip`.`status`, `arsip`.`created_at`, `arsip`.`updated_at`, `departemen`.`nama_departemen`, `kategori`.`nama_kategori`, `user`.`nama_user`
+FROM `arsip`
+INNER JOIN `departemen` ON `departemen`.`id` = `arsip`.`id_departemen`
+INNER JOIN `kategori` ON `kategori`.`id` = `arsip`.`id_kategori`
+INNER JOIN `user` ON `user`.`id` = `arsip`.`id_user`
+WHERE `id_departemen` IS NULL
+ORDER BY `id` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `arsip`.`id`, `arsip`.`no_arsip`, `arsip`.`nama_arsip`, `arsip`.`file_arsip`, `arsip`.`ukuran_file`, `arsip`.`deskripsi`, `arsip`.`status`, `arsip`.`created_at`, `arsip`.`updated_at`, `departemen`.`nama_departemen`, `kategori`.`nama_kategori`, `user`.`nama_user`
+FROM `arsip`
+INNER JOIN `departemen` ON `departemen`.`id` = `arsip`.`id_departemen`
+INNER JOIN `kategori` ON `kategori`.`id` = `arsip`.`id_kategori`
+INNER JOIN `user` ON `user`.`id` = `arsip`.`id_user`
+WHERE `id_departemen` IS NULL
+ORDER BY `id` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `arsip`.`id`, `arsip`.`no_arsip`, `arsip`.`nama_arsip`, `arsip`.`file_arsip`, `arsip`.`ukuran_file`, `arsip`.`deskripsi`, `arsip`.`status`, `arsip`.`created_at`, `arsip`.`updated_at`, `departemen`.`nama_departemen`, `kategori`.`nama_kategori`, `user`.`nama_user`
+FROM `arsip`
+INNER JOIN `departemen` ON `departemen`.`id` = `arsip`.`id_departemen`
+INNER JOIN `kategori` ON `kategori`.`id` = `arsip`.`id_kategori`
+INNER JOIN `user` ON `user`.`id` = `arsip`.`id_user`
+WHERE `id_departemen` IS NULL
+ORDER BY `id` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `arsip`.`id`, `arsip`.`no_arsip`, `arsip`.`nama_arsip`, `arsip`.`file_arsip`, `arsip`.`ukuran_file`, `arsip`.`deskripsi`, `arsip`.`status`, `arsip`.`created_at`, `arsip`.`updated_at`, `departemen`.`nama_departemen`, `kategori`.`nama_kategori`, `user`.`nama_user`
+FROM `arsip`
+INNER JOIN `departemen` ON `departemen`.`id` = `arsip`.`id_departemen`
+INNER JOIN `kategori` ON `kategori`.`id` = `arsip`.`id_kategori`
+INNER JOIN `user` ON `user`.`id` = `arsip`.`id_user`
+WHERE `id_departemen` IS NULL
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+ 7 APPPATH\Models\Admin\ArsipModel.php(86): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Controllers\Admin\Arsip.php(60): App\Models\Admin\ArsipModel->ajaxGetData('10', '0')
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Arsip->ajaxList()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Arsip))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 02:27:30 --> Trying to access array offset on value of type null
+in SYSTEMPATH\Helpers\form_helper.php on line 381.
+ 1 SYSTEMPATH\Helpers\form_helper.php(381): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'SYSTEMPATH\\Helpers\\form_helper.php', 381)
+ 2 APPPATH\Views\form_admin\form_arsip.php(46): form_dropdown_key('kategori', [...], [...], ' class="form-control"', 'Kategori')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form_admin\\form_arsip.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('form_admin/form_arsip', null, true)
+ 6 APPPATH\Views\admin\arsip.php(47): CodeIgniter\View\View->include('form_admin/form_arsip')
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\arsip.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/arsip', [], true)
+10 APPPATH\Controllers\Admin\Arsip.php(27): view('admin/arsip', [...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Arsip->index()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Arsip))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 02:57:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\arsip_view.php on line 24.
+ 1 APPPATH\Views\admin\arsip_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\arsip_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\arsip_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/arsip_view', [], true)
+ 5 APPPATH\Controllers\Admin\Arsip.php(39): view('admin/arsip_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Arsip->view('112235')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Arsip))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 02:57:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\arsip_view.php on line 24.
+ 1 APPPATH\Views\admin\arsip_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\arsip_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\arsip_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/arsip_view', [], true)
+ 5 APPPATH\Controllers\Admin\Arsip.php(39): view('admin/arsip_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Arsip->view('112237')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Arsip))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 02:57:43 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\arsip_view.php on line 24.
+ 1 APPPATH\Views\admin\arsip_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\arsip_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\arsip_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/arsip_view', [], true)
+ 5 APPPATH\Controllers\Admin\Arsip.php(39): view('admin/arsip_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Arsip->view('112235')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Arsip))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 03:23:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\arsip_view.php on line 24.
+ 1 APPPATH\Views\admin\arsip_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\arsip_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\arsip_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/arsip_view', [], true)
+ 5 APPPATH\Controllers\Admin\Arsip.php(39): view('admin/arsip_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Arsip->view('112232')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Arsip))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 03:23:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\arsip_view.php on line 24.
+ 1 APPPATH\Views\admin\arsip_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\arsip_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\arsip_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/arsip_view', [], true)
+ 5 APPPATH\Controllers\Admin\Arsip.php(39): view('admin/arsip_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Arsip->view('112231')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Arsip))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 03:23:55 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\arsip_view.php on line 24.
+ 1 APPPATH\Views\admin\arsip_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\arsip_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\arsip_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/arsip_view', [], true)
+ 5 APPPATH\Controllers\Admin\Arsip.php(39): view('admin/arsip_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Arsip->view('1122233')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Arsip))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 03:24:19 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\arsip_view.php on line 24.
+ 1 APPPATH\Views\admin\arsip_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\arsip_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\arsip_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/arsip_view', [], true)
+ 5 APPPATH\Controllers\Admin\Arsip.php(39): view('admin/arsip_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Arsip->view('1122233')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Arsip))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 03:24:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\arsip_view.php on line 24.
+ 1 APPPATH\Views\admin\arsip_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\arsip_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\arsip_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/arsip_view', [], true)
+ 5 APPPATH\Controllers\Admin\Arsip.php(39): view('admin/arsip_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Arsip->view('112233')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Arsip))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 05:25:13 --> FilterAuthSuperadmin filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('FilterAuthSuperadmin')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('admin/arsip')
+ 4 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('admin/arsip', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 05:25:21 --> FilterAuthSuperadmin filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('FilterAuthSuperadmin')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('C:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 05:26:45 --> FilterAuthSuperadmin filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('FilterAuthSuperadmin')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('C:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 05:28:00 --> Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`
+in APPPATH\Controllers\Auth.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 08:23:33 --> Undefined variable $total_departemen
+in APPPATH\Views\admin\dashboard.php on line 50.
+ 1 APPPATH\Views\admin\dashboard.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_departemen', 'APPPATH\\Views\\admin\\dashboard.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(30): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-04 08:27:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+CRITICAL - 2022-07-04 08:27:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE  IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE  IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE  IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE  IS NULL', [], false)
+ 5 APPPATH\Models\Admin\DashboardModel.php(11): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Controllers\Admin\Dashboard.php(26): App\Models\Admin\DashboardModel->tableCount('kategori')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-04 08:31:52 --> Unknown column 'level' in 'where clause'
+CRITICAL - 2022-07-04 08:31:52 --> Unknown column 'level' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `arsip`
+WHERE `id_departemen` = \'arsip\'
+AND `level` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `arsip`
+WHERE `id_departemen` = \'arsip\'
+AND `level` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `arsip`
+WHERE `id_departemen` = \'arsip\'
+AND `level` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `arsip`
+WHERE `id_departemen` = :id_departemen:
+AND `level` = :level:', [...], false)
+ 5 APPPATH\Models\Admin\DashboardModel.php(19): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Controllers\Admin\Dashboard.php(27): App\Models\Admin\DashboardModel->arsipCount('arsip', 'id_departemen', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-04 08:32:26 --> Unknown column 'level' in 'where clause'
+CRITICAL - 2022-07-04 08:32:26 --> Unknown column 'level' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `arsip`
+WHERE `id_departemen` = \'arsip\'
+AND `level` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `arsip`
+WHERE `id_departemen` = \'arsip\'
+AND `level` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `arsip`
+WHERE `id_departemen` = \'arsip\'
+AND `level` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `arsip`
+WHERE `id_departemen` = :id_departemen:
+AND `level` = :level:', [...], false)
+ 5 APPPATH\Models\Admin\DashboardModel.php(19): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Controllers\Admin\Dashboard.php(27): App\Models\Admin\DashboardModel->arsipCount('arsip', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-04 08:32:46 --> Unknown column 'level' in 'where clause'
+CRITICAL - 2022-07-04 08:32:46 --> Unknown column 'level' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `arsip`
+WHERE `id_departemen` = \'1\'
+AND `level` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `arsip`
+WHERE `id_departemen` = \'1\'
+AND `level` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `arsip`
+WHERE `id_departemen` = \'1\'
+AND `level` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `arsip`
+WHERE `id_departemen` = :id_departemen:
+AND `level` = :level:', [...], false)
+ 5 APPPATH\Models\Admin\DashboardModel.php(19): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Controllers\Admin\Dashboard.php(27): App\Models\Admin\DashboardModel->arsipCount('1')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-04 08:33:39 --> Unknown column 'level' in 'where clause'
+CRITICAL - 2022-07-04 08:33:39 --> Unknown column 'level' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `arsip`
+WHERE `id_departemen` = \'1\'
+AND `level` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `arsip`
+WHERE `id_departemen` = \'1\'
+AND `level` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `arsip`
+WHERE `id_departemen` = \'1\'
+AND `level` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `arsip`
+WHERE `id_departemen` = :id_departemen:
+AND `level` = :level:', [...], false)
+ 5 APPPATH\Models\Admin\DashboardModel.php(24): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Controllers\Admin\Dashboard.php(27): App\Models\Admin\DashboardModel->arsipCount('1')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 08:55:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\dashboard.php on line 11.
+ 1 APPPATH\Views\admin\dashboard.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\dashboard.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(33): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 10:58:27 --> Invalid file: user/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 3 APPPATH\Controllers\User\Dashboard.php(33): view('user/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 10:58:32 --> Invalid file: user/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 3 APPPATH\Controllers\User\Dashboard.php(33): view('user/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 10:58:37 --> Invalid file: user/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 3 APPPATH\Controllers\User\Dashboard.php(33): view('user/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 10:58:50 --> Invalid file: user/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 3 APPPATH\Controllers\User\Dashboard.php(33): view('user/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 10:59:19 --> Invalid file: user/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 3 APPPATH\Controllers\User\Dashboard.php(33): view('user/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 11:00:13 --> Invalid file: user/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 3 APPPATH\Controllers\User\Dashboard.php(33): view('user/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 11:00:15 --> Invalid file: user/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 3 APPPATH\Controllers\User\Dashboard.php(33): view('user/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 11:00:25 --> Invalid file: user/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 3 APPPATH\Controllers\User\Dashboard.php(33): view('user/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 11:00:40 --> Invalid file: user/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 3 APPPATH\Controllers\User\Dashboard.php(33): view('user/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 11:00:56 --> Undefined array key "draw"
+in APPPATH\Controllers\User\Arsip.php on line 49.
+ 1 APPPATH\Controllers\User\Arsip.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "draw"', 'APPPATH\\Controllers\\User\\Arsip.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User\Arsip->ajaxList()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Arsip))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 11:01:06 --> Undefined array key "draw"
+in APPPATH\Controllers\User\Arsip.php on line 49.
+ 1 APPPATH\Controllers\User\Arsip.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "draw"', 'APPPATH\\Controllers\\User\\Arsip.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User\Arsip->ajaxList()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Arsip))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 11:01:16 --> Invalid file: user/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 3 APPPATH\Controllers\User\Dashboard.php(33): view('user/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 11:01:23 --> Invalid file: user/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 3 APPPATH\Controllers\User\Dashboard.php(33): view('user/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 11:07:28 --> Undefined array key "draw"
+in APPPATH\Controllers\User\Arsip.php on line 49.
+ 1 APPPATH\Controllers\User\Arsip.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "draw"', 'APPPATH\\Controllers\\User\\Arsip.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User\Arsip->ajaxList()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Arsip))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 12:00:18 --> Undefined array key "draw"
+in APPPATH\Controllers\User\Arsip.php on line 49.
+ 1 APPPATH\Controllers\User\Arsip.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "draw"', 'APPPATH\\Controllers\\User\\Arsip.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User\Arsip->ajaxList()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Arsip))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 13:01:54 --> Undefined array key "nama_user"
+in APPPATH\Controllers\SuperAdmin\Auth.php on line 54.
+ 1 APPPATH\Controllers\SuperAdmin\Auth.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_user"', 'APPPATH\\Controllers\\SuperAdmin\\Auth.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 13:06:16 --> unlink(uploads/userimg/): Is a directory
+in APPPATH\Controllers\SuperAdmin\User.php on line 167.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(uploads/userimg/): Is a directory', 'APPPATH\\Controllers\\SuperAdmin\\User.php', 167)
+ 2 APPPATH\Controllers\SuperAdmin\User.php(167): unlink('FCPATH\\uploads\\userimg')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\User->ajaxDelete('3')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 13:09:22 -->  is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 314.
+ 1 SYSTEMPATH\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('ROOTPATH\\public')
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('password', 'Password', 'ROOTPATH\\public', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\SuperAdmin\User.php(195): CodeIgniter\Controller->validate([...])
+ 5 APPPATH\Controllers\SuperAdmin\User.php(130): App\Controllers\SuperAdmin\User->_validate('update')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\User->ajaxUpdate()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 13:11:47 -->  is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 314.
+ 1 SYSTEMPATH\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('ROOTPATH\\public')
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('password', 'Password', 'ROOTPATH\\public', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\SuperAdmin\User.php(195): CodeIgniter\Controller->validate([...])
+ 5 APPPATH\Controllers\SuperAdmin\User.php(130): App\Controllers\SuperAdmin\User->_validate('update')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\User->ajaxUpdate()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 13:12:12 -->  is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 314.
+ 1 SYSTEMPATH\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('ROOTPATH\\public')
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('password', 'Password', 'ROOTPATH\\public', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\SuperAdmin\User.php(195): CodeIgniter\Controller->validate([...])
+ 5 APPPATH\Controllers\SuperAdmin\User.php(130): App\Controllers\SuperAdmin\User->_validate('update')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\User->ajaxUpdate()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 13:12:36 -->  is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 314.
+ 1 SYSTEMPATH\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('ROOTPATH\\public')
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('password', 'Password', 'ROOTPATH\\public', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\SuperAdmin\User.php(195): CodeIgniter\Controller->validate([...])
+ 5 APPPATH\Controllers\SuperAdmin\User.php(130): App\Controllers\SuperAdmin\User->_validate('update')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\User->ajaxUpdate()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 13:16:39 -->  is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 314.
+ 1 SYSTEMPATH\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('ROOTPATH\\public')
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('password', 'Password', 'ROOTPATH\\public', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\SuperAdmin\User.php(195): CodeIgniter\Controller->validate([...])
+ 5 APPPATH\Controllers\SuperAdmin\User.php(130): App\Controllers\SuperAdmin\User->_validate('update')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\User->ajaxUpdate()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 13:16:41 -->  is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 314.
+ 1 SYSTEMPATH\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('ROOTPATH\\public')
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('password', 'Password', 'ROOTPATH\\public', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\SuperAdmin\User.php(195): CodeIgniter\Controller->validate([...])
+ 5 APPPATH\Controllers\SuperAdmin\User.php(130): App\Controllers\SuperAdmin\User->_validate('update')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\User->ajaxUpdate()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 13:30:31 --> Undefined variable $rulesValidation
+in APPPATH\Models\SuperAdmin\UserModel.php on line 30.
+ 1 APPPATH\Models\SuperAdmin\UserModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rulesValidation', 'APPPATH\\Models\\SuperAdmin\\UserModel.php', 30)
+ 2 APPPATH\Controllers\SuperAdmin\User.php(195): App\Models\SuperAdmin\UserModel->getRulesValidation('update')
+ 3 APPPATH\Controllers\SuperAdmin\User.php(130): App\Controllers\SuperAdmin\User->_validate('update')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\User->ajaxUpdate()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 13:32:51 -->  is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 314.
+ 1 SYSTEMPATH\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('ROOTPATH\\public')
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('password', 'Password', 'ROOTPATH\\public', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\SuperAdmin\User.php(195): CodeIgniter\Controller->validate([...])
+ 5 APPPATH\Controllers\SuperAdmin\User.php(130): App\Controllers\SuperAdmin\User->_validate('update')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\User->ajaxUpdate()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-04 13:33:08 -->  is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 314.
+ 1 SYSTEMPATH\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('ROOTPATH\\public')
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('password', 'Password', 'ROOTPATH\\public', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\SuperAdmin\User.php(195): CodeIgniter\Controller->validate([...])
+ 5 APPPATH\Controllers\SuperAdmin\User.php(130): App\Controllers\SuperAdmin\User->_validate('update')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\User->ajaxUpdate()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

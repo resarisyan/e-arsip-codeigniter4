@@ -1,0 +1,284 @@
+ERROR - 2022-07-03 06:15:35 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-03 06:15:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\SuperAdmin\AuthModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\SuperAdmin\Auth.php(50): App\Models\SuperAdmin\AuthModel->login('resarisyan@gmail.com', '12345')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 20:34:49 --> Invalid file: admin/kategori.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/kategori.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/kategori', [], true)
+ 3 APPPATH\Controllers\Admin\Kategori.php(27): view('admin/kategori', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\Kategori->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:29:52 --> Call to undefined method App\Models\Admin\UserModel::num_rows
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Admin\UserModel.php(73): CodeIgniter\Model->__call('num_rows', [])
+ 2 APPPATH\Controllers\Admin\User.php(37): App\Models\Admin\UserModel->ajaxGetTotal()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:33:09 --> Call to undefined method App\Models\Admin\UserModel::count_all_results
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Admin\UserModel.php(73): CodeIgniter\Model->__call('count_all_results', [])
+ 2 APPPATH\Controllers\Admin\User.php(37): App\Models\Admin\UserModel->ajaxGetTotal()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:34:37 --> Call to undefined method App\Models\Admin\UserModel::count_all
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Admin\UserModel.php(73): CodeIgniter\Model->__call('count_all', [])
+ 2 APPPATH\Controllers\Admin\User.php(37): App\Models\Admin\UserModel->ajaxGetTotal()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:34:54 --> Call to a member function where() on int
+in APPPATH\Models\Admin\UserModel.php on line 73.
+ 1 APPPATH\Controllers\Admin\User.php(37): App\Models\Admin\UserModel->ajaxGetTotal()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:38:48 --> Call to undefined method App\Models\Admin\UserModel::count_all_results
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Admin\UserModel.php(73): CodeIgniter\Model->__call('count_all_results', [])
+ 2 APPPATH\Controllers\Admin\User.php(37): App\Models\Admin\UserModel->ajaxGetTotal()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:40:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Models\Admin\UserModel.php on line 73.
+ 1 APPPATH\Controllers\Admin\User.php(37): App\Models\Admin\UserModel->ajaxGetTotal()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:41:58 --> Call to undefined method App\Models\Admin\UserModel::num_rows
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Admin\UserModel.php(73): CodeIgniter\Model->__call('num_rows', [])
+ 2 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:42:23 --> Call to undefined method App\Models\Admin\UserModel::num_rows
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Admin\UserModel.php(73): CodeIgniter\Model->__call('num_rows', [])
+ 2 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:42:59 --> Call to undefined method App\Models\Admin\UserModel::num_rows
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Admin\UserModel.php(73): CodeIgniter\Model->__call('num_rows', [])
+ 2 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:46:02 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 392.
+ 1 APPPATH\Views\admin\user.php(4): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/user', [], true)
+ 5 APPPATH\Controllers\Admin\User.php(27): view('admin/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:47:36 --> Call to undefined method App\Models\Admin\UserModel::count_all_results
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Admin\UserModel.php(73): CodeIgniter\Model->__call('count_all_results', [])
+ 2 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:50:59 --> Call to undefined method App\Models\Admin\UserModel::num_rows
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Admin\UserModel.php(73): CodeIgniter\Model->__call('num_rows', [])
+ 2 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal(null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:51:00 --> Call to undefined method App\Models\Admin\UserModel::num_rows
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Admin\UserModel.php(73): CodeIgniter\Model->__call('num_rows', [])
+ 2 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal(null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:51:00 --> Call to undefined method App\Models\Admin\UserModel::num_rows
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Admin\UserModel.php(73): CodeIgniter\Model->__call('num_rows', [])
+ 2 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal(null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:51:01 --> Call to undefined method App\Models\Admin\UserModel::num_rows
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Admin\UserModel.php(73): CodeIgniter\Model->__call('num_rows', [])
+ 2 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal(null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:53:10 --> Call to undefined method App\Models\Admin\UserModel::coutAll
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Admin\UserModel.php(73): CodeIgniter\Model->__call('coutAll', [])
+ 2 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal(null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:56:01 --> Call to undefined method App\Models\Admin\UserModel::result
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Admin\UserModel.php(73): CodeIgniter\Model->__call('result', [])
+ 2 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal(null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:56:15 --> syntax error, unexpected identifier "get"
+in APPPATH\Models\Admin\UserModel.php on line 73.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Admin\\UserModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Admin\\UserModel')
+ 3 APPPATH\Controllers\Admin\User.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Admin\\UserModel')
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Admin\User->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:56:16 --> syntax error, unexpected identifier "get"
+in APPPATH\Models\Admin\UserModel.php on line 73.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Admin\\UserModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Admin\\UserModel')
+ 3 APPPATH\Controllers\Admin\User.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Admin\\UserModel')
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Admin\User->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:56:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Models\Admin\UserModel.php on line 73.
+ 1 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal(null)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:56:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Models\Admin\UserModel.php on line 73.
+ 1 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal(null)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:56:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Models\Admin\UserModel.php on line 73.
+ 1 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal(null)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:56:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Models\Admin\UserModel.php on line 73.
+ 1 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal(null)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:57:24 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+in APPPATH\Models\Admin\UserModel.php on line 74.
+ 1 APPPATH\Models\Admin\UserModel.php(74): count(Object(CodeIgniter\Database\MySQLi\Result))
+ 2 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal(null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 21:57:25 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+in APPPATH\Models\Admin\UserModel.php on line 74.
+ 1 APPPATH\Models\Admin\UserModel.php(74): count(Object(CodeIgniter\Database\MySQLi\Result))
+ 2 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal(null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 22:04:17 --> Call to undefined method App\Models\Admin\UserModel::count_all_results
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Admin\UserModel.php(73): CodeIgniter\Model->__call('count_all_results', [])
+ 2 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal(null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 22:04:18 --> Call to undefined method App\Models\Admin\UserModel::count_all_results
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\Admin\UserModel.php(73): CodeIgniter\Model->__call('count_all_results', [])
+ 2 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal(null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 22:05:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Models\Admin\UserModel.php on line 73.
+ 1 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal(null)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-03 22:06:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Models\Admin\UserModel.php on line 73.
+ 1 APPPATH\Controllers\Admin\User.php(38): App\Models\Admin\UserModel->ajaxGetTotal(null)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin\User->ajaxList()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

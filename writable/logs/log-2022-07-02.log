@@ -1,0 +1,648 @@
+CRITICAL - 2022-07-02 01:29:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Models\ArsipModel.php on line 107.
+ 1 APPPATH\Controllers\Arsip.php(36): App\Models\ArsipModel->getDetailArsip('112233')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Arsip->viewArsip('112233')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arsip))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 09:42:39 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\SuperAdmin/Auth::index
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\SuperAdmin/Auth::index')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('C:\\')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('C:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 10:21:27 --> Invalid file: superadmin/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('superadmin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('superadmin/dashboard', [], true)
+ 3 APPPATH\Controllers\SuperAdmin\Dashboard.php(31): view('superadmin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 10:21:38 --> Invalid file: superadmin/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('superadmin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('superadmin/dashboard', [], true)
+ 3 APPPATH\Controllers\SuperAdmin\Dashboard.php(31): view('superadmin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 10:27:00 --> Undefined property: App\Controllers\SuperAdmin\Auth::$ModelAuth
+in APPPATH\Controllers\SuperAdmin\Auth.php on line 46.
+ 1 APPPATH\Controllers\SuperAdmin\Auth.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SuperAdmin\\Auth::$ModelAuth', 'APPPATH\\Controllers\\SuperAdmin\\Auth.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 10:29:06 --> Undefined property: App\Controllers\SuperAdmin\Auth::$ModelAuth
+in APPPATH\Controllers\SuperAdmin\Auth.php on line 46.
+ 1 APPPATH\Controllers\SuperAdmin\Auth.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SuperAdmin\\Auth::$ModelAuth', 'APPPATH\\Controllers\\SuperAdmin\\Auth.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 10:31:04 --> Undefined property: App\Controllers\SuperAdmin\Auth::$Auth
+in APPPATH\Controllers\SuperAdmin\Auth.php on line 51.
+ 1 APPPATH\Controllers\SuperAdmin\Auth.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SuperAdmin\\Auth::$Auth', 'APPPATH\\Controllers\\SuperAdmin\\Auth.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 10:32:00 --> Undefined property: App\Controllers\SuperAdmin\Auth::$Auth
+in APPPATH\Controllers\SuperAdmin\Auth.php on line 51.
+ 1 APPPATH\Controllers\SuperAdmin\Auth.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SuperAdmin\\Auth::$Auth', 'APPPATH\\Controllers\\SuperAdmin\\Auth.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 10:38:06 --> Invalid file: superadmin/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('superadmin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('superadmin/dashboard', [], true)
+ 3 APPPATH\Controllers\SuperAdmin\Dashboard.php(31): view('superadmin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:20:54 --> CodeIgniter\Router\RouteCollection::put(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\e-arsip\app\Config\Routes.php on line 75
+in SYSTEMPATH\Router\RouteCollection.php on line 900.
+ 1 APPPATH\Config\Routes.php(75): CodeIgniter\Router\RouteCollection->put('id/(:num)', 'ajaxStatus/$1', 'Kategori::ajaxStatus', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(76): CodeIgniter\Router\RouteCollection->group('kategori', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 APPPATH\Config\Routes.php(86): CodeIgniter\Router\RouteCollection->group('superadmin', Object(Closure))
+ 6 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:21:03 --> CodeIgniter\Router\RouteCollection::put(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\e-arsip\app\Config\Routes.php on line 75
+in SYSTEMPATH\Router\RouteCollection.php on line 900.
+ 1 APPPATH\Config\Routes.php(75): CodeIgniter\Router\RouteCollection->put('id/(:num)', 'ajaxStatus/$1', 'Kategori::ajaxStatus', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(76): CodeIgniter\Router\RouteCollection->group('kategori', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 APPPATH\Config\Routes.php(86): CodeIgniter\Router\RouteCollection->group('superadmin', Object(Closure))
+ 6 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:22:37 --> CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\e-arsip\app\Config\Routes.php on line 57
+in SYSTEMPATH\Router\RouteCollection.php on line 876.
+ 1 APPPATH\Config\Routes.php(57): CodeIgniter\Router\RouteCollection->get('id/(:num)', 'view/$1', 'Arsip::view', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(58): CodeIgniter\Router\RouteCollection->group('arsip', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 APPPATH\Config\Routes.php(86): CodeIgniter\Router\RouteCollection->group('superadmin', Object(Closure))
+ 6 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:22:37 --> CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\e-arsip\app\Config\Routes.php on line 57
+in SYSTEMPATH\Router\RouteCollection.php on line 876.
+ 1 APPPATH\Config\Routes.php(57): CodeIgniter\Router\RouteCollection->get('id/(:num)', 'view/$1', 'Arsip::view', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(58): CodeIgniter\Router\RouteCollection->group('arsip', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 APPPATH\Config\Routes.php(86): CodeIgniter\Router\RouteCollection->group('superadmin', Object(Closure))
+ 6 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:22:38 --> CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\e-arsip\app\Config\Routes.php on line 57
+in SYSTEMPATH\Router\RouteCollection.php on line 876.
+ 1 APPPATH\Config\Routes.php(57): CodeIgniter\Router\RouteCollection->get('id/(:num)', 'view/$1', 'Arsip::view', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(58): CodeIgniter\Router\RouteCollection->group('arsip', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 APPPATH\Config\Routes.php(86): CodeIgniter\Router\RouteCollection->group('superadmin', Object(Closure))
+ 6 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:22:46 --> CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\e-arsip\app\Config\Routes.php on line 57
+in SYSTEMPATH\Router\RouteCollection.php on line 876.
+ 1 APPPATH\Config\Routes.php(57): CodeIgniter\Router\RouteCollection->get('id/(:num)', 'view/$1', 'Arsip::view', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(58): CodeIgniter\Router\RouteCollection->group('arsip', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 APPPATH\Config\Routes.php(86): CodeIgniter\Router\RouteCollection->group('superadmin', Object(Closure))
+ 6 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:22:47 --> CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\e-arsip\app\Config\Routes.php on line 57
+in SYSTEMPATH\Router\RouteCollection.php on line 876.
+ 1 APPPATH\Config\Routes.php(57): CodeIgniter\Router\RouteCollection->get('id/(:num)', 'view/$1', 'Arsip::view', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(58): CodeIgniter\Router\RouteCollection->group('arsip', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 APPPATH\Config\Routes.php(86): CodeIgniter\Router\RouteCollection->group('superadmin', Object(Closure))
+ 6 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:23:23 --> CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\e-arsip\app\Config\Routes.php on line 57
+in SYSTEMPATH\Router\RouteCollection.php on line 876.
+ 1 APPPATH\Config\Routes.php(57): CodeIgniter\Router\RouteCollection->get('id/(:num)', 'view/$1', 'Arsip::view', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(58): CodeIgniter\Router\RouteCollection->group('arsip', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 APPPATH\Config\Routes.php(86): CodeIgniter\Router\RouteCollection->group('superadmin', Object(Closure))
+ 6 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:23:44 --> CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\e-arsip\app\Config\Routes.php on line 57
+in SYSTEMPATH\Router\RouteCollection.php on line 876.
+ 1 APPPATH\Config\Routes.php(57): CodeIgniter\Router\RouteCollection->get('id/(:num)', 'view/$1', 'Arsip::view', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(58): CodeIgniter\Router\RouteCollection->group('arsip', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 APPPATH\Config\Routes.php(86): CodeIgniter\Router\RouteCollection->group('superadmin', Object(Closure))
+ 6 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:23:45 --> CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\e-arsip\app\Config\Routes.php on line 57
+in SYSTEMPATH\Router\RouteCollection.php on line 876.
+ 1 APPPATH\Config\Routes.php(57): CodeIgniter\Router\RouteCollection->get('id/(:num)', 'view/$1', 'Arsip::view', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(58): CodeIgniter\Router\RouteCollection->group('arsip', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 APPPATH\Config\Routes.php(86): CodeIgniter\Router\RouteCollection->group('superadmin', Object(Closure))
+ 6 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:23:45 --> CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\e-arsip\app\Config\Routes.php on line 57
+in SYSTEMPATH\Router\RouteCollection.php on line 876.
+ 1 APPPATH\Config\Routes.php(57): CodeIgniter\Router\RouteCollection->get('id/(:num)', 'view/$1', 'Arsip::view', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(58): CodeIgniter\Router\RouteCollection->group('arsip', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 APPPATH\Config\Routes.php(86): CodeIgniter\Router\RouteCollection->group('superadmin', Object(Closure))
+ 6 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:23:46 --> CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\e-arsip\app\Config\Routes.php on line 57
+in SYSTEMPATH\Router\RouteCollection.php on line 876.
+ 1 APPPATH\Config\Routes.php(57): CodeIgniter\Router\RouteCollection->get('id/(:num)', 'view/$1', 'Arsip::view', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(58): CodeIgniter\Router\RouteCollection->group('arsip', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 APPPATH\Config\Routes.php(86): CodeIgniter\Router\RouteCollection->group('superadmin', Object(Closure))
+ 6 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:24:04 --> CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\e-arsip\app\Config\Routes.php on line 57
+in SYSTEMPATH\Router\RouteCollection.php on line 876.
+ 1 APPPATH\Config\Routes.php(57): CodeIgniter\Router\RouteCollection->get('id/(:num)', 'view/$1', 'Arsip::view', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(58): CodeIgniter\Router\RouteCollection->group('arsip', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 APPPATH\Config\Routes.php(86): CodeIgniter\Router\RouteCollection->group('superadmin', Object(Closure))
+ 6 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:25:59 --> Undefined array key 0
+in SYSTEMPATH\Router\RouteCollection.php on line 1134.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'SYSTEMPATH\\Router\\RouteCollection.php', 1134)
+ 2 SYSTEMPATH\Router\RouteCollection.php(1001): CodeIgniter\Router\RouteCollection->fillRouteParams('superadmin/kategori/ajaxStatus/([^/]+)', [])
+ 3 SYSTEMPATH\Common.php(913): CodeIgniter\Router\RouteCollection->reverseRoute('superadmin.kategori.ajaxStatus')
+ 4 APPPATH\Views\superadmin\kategori.php(10): route_to('superadmin.kategori.ajaxStatus')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\superadmin\\kategori.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('superadmin/kategori', [], true)
+ 8 APPPATH\Controllers\SuperAdmin\Kategori.php(27): view('superadmin/kategori', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:26:08 --> Undefined array key 0
+in SYSTEMPATH\Router\RouteCollection.php on line 1134.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'SYSTEMPATH\\Router\\RouteCollection.php', 1134)
+ 2 SYSTEMPATH\Router\RouteCollection.php(1001): CodeIgniter\Router\RouteCollection->fillRouteParams('superadmin/kategori/ajaxStatus/([^/]+)', [])
+ 3 SYSTEMPATH\Common.php(913): CodeIgniter\Router\RouteCollection->reverseRoute('superadmin.kategori.ajaxStatus')
+ 4 APPPATH\Views\superadmin\kategori.php(10): route_to('superadmin.kategori.ajaxStatus')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\superadmin\\kategori.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('superadmin/kategori', [], true)
+ 8 APPPATH\Controllers\SuperAdmin\Kategori.php(27): view('superadmin/kategori', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:28:31 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxEdit(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxEdit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:28:47 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxEdit(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxEdit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:30:06 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxStatus(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:30:22 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxEdit(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxEdit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:30:22 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxStatus(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:30:54 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxStatus(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:30:55 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxStatus(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:30:56 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxStatus(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:31:20 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxStatus(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:31:44 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxStatus(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:31:52 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxStatus(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:31:53 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxStatus(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:32:45 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxStatus(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:32:51 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxStatus(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:35:02 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxStatus(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:35:03 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxStatus(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:36:54 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxStatus(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:36:55 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxStatus(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:36:57 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxStatus(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:37:00 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxStatus(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:40:40 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxStatus(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:40:43 --> Too few arguments to function App\Controllers\SuperAdmin\Kategori::ajaxStatus(), 0 passed in C:\xampp\htdocs\e-arsip\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\SuperAdmin\Kategori.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 11:52:55 --> Undefined array key 0
+in SYSTEMPATH\Router\RouteCollection.php on line 1134.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'SYSTEMPATH\\Router\\RouteCollection.php', 1134)
+ 2 SYSTEMPATH\Router\RouteCollection.php(1001): CodeIgniter\Router\RouteCollection->fillRouteParams('superadmin/kategori/ajaxEdit/([^/]+)', [])
+ 3 SYSTEMPATH\Common.php(913): CodeIgniter\Router\RouteCollection->reverseRoute('superadmin.kategori.ajaxEdit')
+ 4 APPPATH\Views\superadmin\kategori.php(7): route_to('superadmin.kategori.ajaxEdit')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\superadmin\\kategori.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('superadmin/kategori', [], true)
+ 8 APPPATH\Controllers\SuperAdmin\Kategori.php(27): view('superadmin/kategori', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-02 12:31:14 --> Column 'nama_kategori' cannot be null
+CRITICAL - 2022-07-02 12:31:14 --> Column 'nama_kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kategori` (`nama_kategori`) VALUES (NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kategori` (`nama_kategori`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kategori` (`nama_kategori`) VALUES (NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kategori` (`nama_kategori`) VALUES (:nama_kategori:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\SuperAdmin\Kategori.php(125): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxUpdate()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-02 12:56:08 --> Column 'nama_kategori' cannot be null
+CRITICAL - 2022-07-02 12:56:08 --> Column 'nama_kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kategori` (`nama_kategori`) VALUES (NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kategori` (`nama_kategori`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kategori` (`nama_kategori`) VALUES (NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kategori` (`nama_kategori`) VALUES (:nama_kategori:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\SuperAdmin\Kategori.php(125): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Kategori->ajaxUpdate()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 13:01:13 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed after headers have already been sent', 'SYSTEMPATH\\Session\\Handlers\\FileHandler.php', 71)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(71): ini_set('session.save_path', 'ROOTPATH\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(606): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(585): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(932): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Filters\FilterAuth.php(13): session()
+10 SYSTEMPATH\Filters\Filters.php(173): App\Filters\FilterAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+11 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('superadmin/kategori/ajaxUpdate', 'before')
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 13:01:50 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed after headers have already been sent', 'SYSTEMPATH\\Session\\Handlers\\FileHandler.php', 71)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(71): ini_set('session.save_path', 'ROOTPATH\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(606): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(585): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(932): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Filters\FilterAuth.php(13): session()
+10 SYSTEMPATH\Filters\Filters.php(173): App\Filters\FilterAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+11 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('superadmin/kategori/ajaxUpdate', 'before')
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 13:01:58 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed after headers have already been sent', 'SYSTEMPATH\\Session\\Handlers\\FileHandler.php', 71)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(71): ini_set('session.save_path', 'ROOTPATH\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(606): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(585): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(932): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Filters\FilterAuth.php(13): session()
+10 SYSTEMPATH\Filters\Filters.php(173): App\Filters\FilterAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+11 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('superadmin/kategori/ajaxUpdate', 'before')
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 13:04:13 --> filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf
+in APPPATH\Controllers\SuperAdmin\Arsip.php on line 162.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf', 'APPPATH\\Controllers\\SuperAdmin\\Arsip.php', 162)
+ 2 APPPATH\Controllers\SuperAdmin\Arsip.php(162): filesize('http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Arsip->ajaxUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Arsip))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 13:05:20 --> filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf
+in APPPATH\Controllers\SuperAdmin\Arsip.php on line 162.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf', 'APPPATH\\Controllers\\SuperAdmin\\Arsip.php', 162)
+ 2 APPPATH\Controllers\SuperAdmin\Arsip.php(162): filesize('http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Arsip->ajaxUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Arsip))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 13:05:25 --> filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf
+in APPPATH\Controllers\SuperAdmin\Arsip.php on line 162.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf', 'APPPATH\\Controllers\\SuperAdmin\\Arsip.php', 162)
+ 2 APPPATH\Controllers\SuperAdmin\Arsip.php(162): filesize('http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Arsip->ajaxUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Arsip))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 13:07:19 --> filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf
+in APPPATH\Controllers\SuperAdmin\Arsip.php on line 162.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf', 'APPPATH\\Controllers\\SuperAdmin\\Arsip.php', 162)
+ 2 APPPATH\Controllers\SuperAdmin\Arsip.php(162): filesize('http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Arsip->ajaxUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Arsip))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 13:08:36 --> filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf
+in APPPATH\Controllers\SuperAdmin\Arsip.php on line 162.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf', 'APPPATH\\Controllers\\SuperAdmin\\Arsip.php', 162)
+ 2 APPPATH\Controllers\SuperAdmin\Arsip.php(162): filesize('http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Arsip->ajaxUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Arsip))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 13:09:28 --> filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf
+in APPPATH\Controllers\SuperAdmin\Arsip.php on line 162.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf', 'APPPATH\\Controllers\\SuperAdmin\\Arsip.php', 162)
+ 2 APPPATH\Controllers\SuperAdmin\Arsip.php(162): filesize('http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Arsip->ajaxUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Arsip))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 13:11:05 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\SuperAdmin\Arsip.php on line 93.
+ 1 APPPATH\Controllers\SuperAdmin\Arsip.php(93): number_format('5,899.544', 0)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Arsip->ajaxList()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Arsip))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 13:11:09 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\SuperAdmin\Arsip.php on line 93.
+ 1 APPPATH\Controllers\SuperAdmin\Arsip.php(93): number_format('5,899.544', 0)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Arsip->ajaxList()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Arsip))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 13:11:16 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\SuperAdmin\Arsip.php on line 93.
+ 1 APPPATH\Controllers\SuperAdmin\Arsip.php(93): number_format('5,899.544', 0)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Arsip->ajaxList()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Arsip))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 13:13:51 --> filesize(): stat failed for http://localhost:8080/uploads/arsip/1656785464_70e84b9471843124f128.pdf
+in APPPATH\Controllers\SuperAdmin\Arsip.php on line 162.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): stat failed for http://localhost:8080/uploads/arsip/1656785464_70e84b9471843124f128.pdf', 'APPPATH\\Controllers\\SuperAdmin\\Arsip.php', 162)
+ 2 APPPATH\Controllers\SuperAdmin\Arsip.php(162): filesize('http://localhost:8080/uploads/arsip/1656785464_70e84b9471843124f128.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Arsip->ajaxUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Arsip))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 13:13:59 --> filesize(): stat failed for http://localhost:8080/uploads/arsip/1656785464_70e84b9471843124f128.pdf
+in APPPATH\Controllers\SuperAdmin\Arsip.php on line 162.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): stat failed for http://localhost:8080/uploads/arsip/1656785464_70e84b9471843124f128.pdf', 'APPPATH\\Controllers\\SuperAdmin\\Arsip.php', 162)
+ 2 APPPATH\Controllers\SuperAdmin\Arsip.php(162): filesize('http://localhost:8080/uploads/arsip/1656785464_70e84b9471843124f128.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Arsip->ajaxUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Arsip))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 13:20:14 --> filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf
+in APPPATH\Controllers\SuperAdmin\Arsip.php on line 162.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf', 'APPPATH\\Controllers\\SuperAdmin\\Arsip.php', 162)
+ 2 APPPATH\Controllers\SuperAdmin\Arsip.php(162): filesize('http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Arsip->ajaxUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Arsip))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 13:22:15 --> filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf
+in APPPATH\Controllers\SuperAdmin\Arsip.php on line 162.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf', 'APPPATH\\Controllers\\SuperAdmin\\Arsip.php', 162)
+ 2 APPPATH\Controllers\SuperAdmin\Arsip.php(162): filesize('http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Arsip->ajaxUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Arsip))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 13:22:33 --> filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf
+in APPPATH\Controllers\SuperAdmin\Arsip.php on line 162.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf', 'APPPATH\\Controllers\\SuperAdmin\\Arsip.php', 162)
+ 2 APPPATH\Controllers\SuperAdmin\Arsip.php(162): filesize('http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Arsip->ajaxUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Arsip))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-02 13:33:19 --> filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf
+in APPPATH\Controllers\SuperAdmin\Arsip.php on line 162.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): stat failed for http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf', 'APPPATH\\Controllers\\SuperAdmin\\Arsip.php', 162)
+ 2 APPPATH\Controllers\SuperAdmin\Arsip.php(162): filesize('http://localhost:8080/uploads/arsip/1656698566_4b06eb140f57870d45ec.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\SuperAdmin\Arsip->ajaxUpdate()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin\Arsip))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
